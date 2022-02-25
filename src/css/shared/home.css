@@ -1,0 +1,332 @@
+/*home slide show css*/
+.slide-container{
+    text-align: center  ;
+}
+
+
+
+.slideImg{
+    width:100%;
+    height:170px;
+    transition: ease-in 2s;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4s;
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+
+.book-consultation-div{
+    position: absolute;
+    left:33%;
+    top:15%;
+    font-size: .7em;
+    background-color: #890000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 3px 5px #999999;
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out .3s;
+    border-radius: 3px;
+    font-family: 'PT Serif', serif;
+}
+
+.book-consultation-div:hover{
+    background-color: white;
+    color:#890000;
+}
+
+.about-section{
+  padding-left: 1em;
+  padding-right:1em;
+  padding-top:1em;
+}
+
+.about-section>h3:first-child{
+  text-align: center;
+}
+
+.about-section>h3{
+  font-size: 1.7em;
+  color: #0085FF;
+  font-family: 'Sora', sans-serif;
+  font-weight: bolder;
+}
+
+.about-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-flex>div{
+  width: 100%;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  
+}
+.about-flex-div-two{
+  padding-left: 1em; 
+  text-align: center;
+}
+
+.display-pic{
+  width: 90%;
+}
+
+.about-section>p{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+
+.kora-paragraphs{
+  font-family: 'Klee One', cursive;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+}
+
+.mission-section{
+  padding-top: 2em;
+  height: 250px;
+  background-color: #D8E6EC;
+  margin-top: 3em;
+}
+
+.mission-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mission-div{
+  width: 20%;
+  margin: auto;
+}
+
+.mission-div:last-child{
+  width: 60%;
+}
+
+.mission-div >img {
+  height: 5em;
+}
+
+.mission-div>h3{
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  font-family: 'PT Serif', serif;
+}
+
+.mission-div>p{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1em;
+}
+
+.vision-values>h3{
+  font-size: 1.5em;
+  text-align: center;
+  color:red;
+  margin-top: 1em;
+  font-family: 'PT Serif', serif;
+}
+
+.vision-pic-div{
+  text-align: center;
+}
+
+.vission-glass-list-flex-div{
+  padding-left: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vission-glass-list-flex-div > div{
+  width: 40%;
+}
+
+.vission-glass-list-flex-div > div > img {
+  height: 10em;
+}
+
+.vision-pic-div>img{
+  height: 15em;
+  width: 23em;
+}
+
+.vision-values-list-div>ul>li{
+  font-family: 'PT Serif', serif;
+  list-style: none;
+}
+
+.list-capital{
+  font-size: 1.5em;
+  color: red;
+}
+
+.letter-I{
+  position: relative;
+  left:.17em;
+}
+  
+.list-small{
+  font-size: 1em;
+}
+
+.home-middle-line{
+  width: 100%;
+}
+
+.home-middle-line>div:first-child{
+  margin: auto;
+  margin-right: 3em;
+  margin-top: 1em;
+  width: 35%;
+  margin-bottom: 5em;
+}
+
+.home-middle-line>div:last-child{
+  margin: auto;
+  width: 35%;
+  margin-left: 3em;
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+.home-middle-line>div{
+  width: 35%;
+  border-top: 2px solid #000000;
+
+}
+
+
+
+
+@-webkit-keyframes fade {
+    from {opacity: .6} 
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  @media(min-width :800px){
+    .slideImg{ 
+      height:300px;
+    }
+    .book-consultation-div{
+      left:30em;
+      top:20em;
+    }
+    .display-pic{
+      padding-left: 3%;
+    }
+    .mission-div >img {
+      height: 13em;
+    }
+    .vission-glass-list-flex-div{
+      padding-left: 10em;
+    }
+
+  }
+
+  @media(min-width :1085px){
+    .slideImg{ 
+      height:400px;
+    }
+    .book-consultation-div{
+      left:34.3em;
+      top:22em;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      box-shadow: 3px 5px #999999;
+      border-radius: 3px;
+      font-size: 1em;
+  }
+    .about-section{
+      padding-left: 7em;
+      padding-right:7em;
+      padding-top:2em;
+    }
+    .about-section>h3{
+      font-size: 2.5em;
+    }
+    .about-flex>div{
+      width: 40%;
+    }
+    .about-flex-div-two{
+      margin: auto;
+    }    
+    .display-pic{
+      width:unset;
+    }
+    .mission-section{
+      padding-top: unset;
+      height: 332px;
+    }
+    .mission-div >img {
+      height: unset;
+    }
+    .mission-div>h3{
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+    .mission-div>p{
+      font-size: 1.5em;
+    }
+    .mission-div{
+      width: 40%;
+      margin: auto;
+    }
+    
+    .mission-div:last-child{
+      width: 40%;
+    }
+    .vision-values>h3{
+      font-size: 3em;
+    }   
+    .vision-pic-div>img{
+      height: 27em;
+      width: unset;
+    }
+    .vission-glass-list-flex-div{
+      padding-left: 7em;
+    }
+    .vission-glass-list-flex-div > div > img {
+      height: unset;
+    }
+    .list-capital{
+      font-size: 3em;
+    }
+    .list-small{
+      font-size: 2em;
+    }
+    
+    .home-middle-line>div:first-child{
+      margin: auto;
+      margin-right: 8em;
+      margin-top: 1em;
+      width: 35%;
+      margin-bottom: 5em;
+    }
+
+    .home-middle-line>div:last-child{
+      margin: auto;
+      width: 35%;
+      margin-left: 8em;
+      margin-top: 1em;
+      margin-bottom: 5em;
+    }
+  }  
+  
+
+
+

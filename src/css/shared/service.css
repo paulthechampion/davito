@@ -1,0 +1,270 @@
+.service-h3 {
+    font-family: 'Vast Shadow', cursive;
+    text-align: center;
+    color: #F40000;
+    margin-top: 1em;
+}
+
+.our-service-div {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.our-service-div >div {
+    margin: auto;
+    margin-top: 3em;
+}
+
+.our-service-div >div:first-child {
+    font-family: himalaya;
+    font-size: 1.8em;
+    margin-top: 2em;
+}
+
+.our-service-pic {
+    margin: auto;
+    height: 16em;
+    width: 21em;
+}
+
+.student-p {
+    font-size: .8em;
+}
+
+.student-p-div > h4 {
+    font-family: 'Stylish', sans-serif;
+}
+
+.study-group {
+    padding-top: 1em;
+    height:15em;
+    width: 21em;
+}
+
+.student-visa-h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    color: #0085FF;
+    font-family: 'Sora', sans-serif;
+    font-weight: bolder;
+}
+
+.working-with-div {
+    font-family: Vollkorn;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    padding: 20px;
+    background-color: #0085FF;
+    color: white;
+}
+
+.linear-flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #F1F1F169;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.linear-flex > div{
+    width: 30%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+
+}
+
+
+.blue-linear {
+    width: 7em;
+    height: 5em;
+    color: white;
+    background-color: #005BAE; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#005BAE, #0085FF,#9ECAF3,#C6E0F8);
+    -webkit-box-shadow:0px 1px 1px #616060;
+    -moz-box-shadow:0px 1px 1px #616060;
+    box-shadow:0px 1px 1px #616060;
+}
+
+.blue-linear>p{
+    text-align: center;
+    padding-top: 1.5em;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.1em;
+}
+
+.citizenn>p{
+    padding-top: .7em;
+}
+
+
+.linear-two {
+    background-color: #005BAE; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#C6E0F8, #9ECAF3,#0085FF,#005BAE);
+}
+
+.faq-h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: 'Proza Libre', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    color: #0085FF;   
+}
+
+.second-group{
+    margin-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: himalaya;
+    font-size: 1.5em;
+}
+
+.second-group-ul  {
+    margin-left: 3em;
+}
+
+.contact-btn{
+    margin-top: 1em;
+    font-family: Microsoft Himalaya;
+    font-size: 1.1em;
+    outline: none;
+    border: none;
+    padding-top:13px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#0085FF ;
+    color: white;
+}
+
+.work-pic {
+    height: 15em;
+    width: 21em;
+    
+}
+
+.work-study-p{
+    font-size: 1em;
+}
+
+.work-h4 {
+    font-size: 1.8em;
+}
+
+
+.pr-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.pr-div>div{
+    width: 100%;
+    text-align: left;
+    
+}
+
+.pr-div>div:nth-child(3){
+    width:100%;
+    font-family: himalaya; 
+    font-size:1.5em;
+    margin-top: .5em;
+
+}
+
+@media(min-width :800px){   
+    .our-service-pic {
+        width: 35em;
+        height: 20em;
+        padding-left: 13%;
+    }
+    .linear-flex{
+        padding-left: 12%;
+    }
+    .study-group {
+        width: 35em;
+        height: 24em;
+        padding-left: 13%;
+    }
+    .work-pic{
+        padding-left: 12%; 
+        width: 35em;
+        height: 24em;
+    }
+}
+
+@media(min-width :1085px){   
+    .our-service-div {
+        padding-left: 3em;
+        padding-right: 3em;
+    }    
+    .our-service-pic {
+        width: 30em;
+        height: unset;
+    }
+    .blue-linear {
+        width: 15em;
+        height: 10em;
+    }
+    .linear-flex > div:first-child{
+        margin-left: 6em;
+    }    
+
+    .linear-flex > div:nth-child(4){
+        margin-left: 16em;
+    }   
+
+    .linear-flex > div:last-child{
+        margin-left: -2em;
+    } 
+    .blue-linear>p{
+        text-align: center;
+        padding-top: 4em;
+    }   
+    .linear-flex > div{
+        margin-top: 4em;
+        margin-bottom: 2em;
+    }
+    .faq-h3 {
+        margin-top: 4em;
+        margin-bottom: 2em;
+    }
+    .student-visa-h3 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+        font-size: 2em;
+    }
+    .study-group {
+        padding-top: 3em;
+        height:19em;
+        width: unset;
+    }
+    .second-group{
+        margin-top: 3em;
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+    .work-pic {
+        height: 10em;
+        width: 15em;
+        
+    }
+    .pr-div>div{
+        width: 40%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    .pr-div>div:nth-child(3){
+        font-size:1.8em;
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-top: .5em;
+    
+    }
+}

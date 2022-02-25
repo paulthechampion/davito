@@ -1,0 +1,70 @@
+.contact-working {
+    margin-top: -4px;
+    font-size: 1.3em;
+}
+
+.form-big-div {
+    font-family: Vollkorn;
+    padding-left: 1em;
+}
+
+.visit-h3 {
+    text-align: center;
+    font-family: Vollkorn;
+    color: #F40000;
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.contForm > input[type="text"] {
+    width: 25em;
+    height: 1.7em;
+    margin-top: 2em;
+}
+
+.contForm > input[type="tel"] {
+    width: 22em;
+    height: 1.7em;
+    margin-top: 2em;
+}
+
+.contForm > input[type="email"] {
+    width: 19em;
+    height: 1.7em;
+    margin-top: 2em;
+}
+
+textarea {
+    margin-top: 2em;
+    width: 20em;
+    height: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none;
+}
+
+.buttonClass{
+    margin-top: 2em;
+    outline: none;
+    border: none;
+    background-color: green;
+    padding:10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttonClass:hover {
+    cursor: pointer;
+    color: green;
+    border:1px solid green;
+    background-color: white;
+}
+
+@media(min-width :1085px){
+    .form-big-div {
+        padding-left: 10em;
+    }
+    textarea {
+        width: 25em;
+    }
+}

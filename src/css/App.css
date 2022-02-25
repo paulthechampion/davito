@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: himalaya;
+  src: url(../img/himalaya.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=PT+Sans+Caption:wght@100&family=PT+Serif&family=Sora:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal&family=Proza+Libre&family=Stylish&family=Vast+Shadow&family=Vollkorn&display=swap');
+
+@import "./shared/accordion.css";
+
+@import "./shared/header.css";
+@import "./shared/phone-menu.css";
+@import "./shared/home.css";
+@import "./shared/service.css";
+
+@import "./shared/contact.css";
+@import "./shared/footer.css";
+
+.red{color:red}
+.remove-link-line{text-decoration: none;}
+.begin-margin {
+  margin-top: 14.2%;
+}
+
+.top-margin {
+  margin-top: 3em;
+}
+
+@media(min-width :800px){
+  .begin-margin{ 
+    margin-top: 6%; 
+  }
+}
+
+@media(min-width :1085px){
+  .begin-margin{ 
+    margin-top: 10%; 
+  }
+  .top-margin {
+    margin-top: 5em;
+  }
+}

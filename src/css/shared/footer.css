@@ -1,0 +1,120 @@
+.footer-first-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7em;
+    background-color: #F1F1F1A3;
+    border-top: 1px solid skyblue;
+}
+
+.footer-first-div > div> img {
+    height: 7em;
+    width: 7em;
+    padding-top: 5em;
+}
+
+.footer-first-div > div:first-child {
+    width: 30%;
+    padding-top: .5em;
+    padding-left: 1em;
+    padding-right: .5em;
+}
+
+.footer-first-div > div:last-child {
+    width: 60%;
+    font-family: 'Metal', cursive;
+    font-size: 1em;
+}
+
+.footer-second-div {
+    background-color: black;
+    color: white;
+}
+
+.footer-second-div :first-child>div {
+    padding-top: 1em;
+    width: 40%;
+    margin: auto;
+}
+.footer-second-div :first-child>div:last-child{
+    width: 100%;
+}
+.footer-second-div :first-child>div:last-child>iframe{
+    width: 99%;
+}
+.footer-contact-h3 {
+    font-family: PT Serif; ;
+}
+
+.socials-logo{
+    height: 1.5em;
+    margin: .6em;
+}
+
+.socials-logo:first-child{
+    margin-left: 0;
+}
+
+/* .footer-second-div :last-child{
+    font-size: .7em;
+} */
+
+.footer-second-div :last-child>div:first-child {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 1em;
+    width: 50%;
+}
+
+.footer-second-div :last-child>div:last-child {
+    width: 30%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.footer-list {
+    display: flex;
+}
+
+
+.footer-list >li:first-child{
+    margin-right: 2em;
+}
+
+
+@media(min-width :1085px){ 
+    .footer-first-div > div:first-child {
+        width: 30%;
+        padding-top: .5em;
+        padding-left: 4em;
+        padding-right: unset;
+    }
+    .footer-first-div > div:last-child {
+        width: 60%;
+        font-family: 'Metal', cursive;
+        font-size: 1.2em;
+    }
+    .footer-first-div > div> img {
+        height: 10em;
+        width: 10em;  
+        padding-top:unset;  
+    }
+    
+.footer-second-div :first-child>div:first-child {
+    padding-left: 3em;
+}
+.footer-second-div :first-child>div {
+    width: 30%;
+}
+.footer-second-div :first-child>div:last-child{
+    width: 30%;
+}
+.socials-logo{
+    height: 2em;
+}
+.footer-second-div :last-child>div:first-child {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-left: 3em;
+    width: 65%;
+}
+}
