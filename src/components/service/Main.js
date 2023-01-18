@@ -31,20 +31,20 @@ export default function Main() {
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeF4rEQvz8MkdZ9SKspoBr9F24EblUFpbPt2FaFV8XbV2_jFA/viewform" target="_blank" className="book-consultation-div">Book Consultation</a>
                     
                 </section>
-            <h3 className='service-h3'>Our Services</h3>
+            <h3 className='service-h3 fade-in'>Our Services</h3>
             <div className='about-flex our-service-div'>
-              <div>
+              <div className='slide-in from-left'>
               Our organization provides immigrants with the opportunity to obtain a visa, permanent 
               resident or citizenship. We collaborate with several schools, including Mississauga secondary 
               school, Conestoga College, Algoma University and Erindale Academy. As part of this process, we 
               ensure that we provide the highest level of care for our clients and deliver as quickly as possible.
               </div>
-              <div>
+              <div className='slide-in from-right'>
                 <img src={Ourservice} alt="our-service" className='our-service-pic'/>
               </div>
             </div>
 
-            <div className='about-flex linear-flex'>
+            <div className='about-flex linear-flex fade-in'>
                 <div>
                     <a href='/service/student-visa' className='remove-link-line'>
                         <div className='blue-linear'>

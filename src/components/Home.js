@@ -37,9 +37,9 @@ export default function Home() {
                 </section>
 
                 <section className='about-section'>
-                    <h3>About Us</h3>
+                    <h3 className='fade-in'>About Us</h3>
                     <div className='about-flex'>
-                        <div>
+                        <div className='slide-in from-left fade-in'>
                             <p className='kora-paragraphs'>
                             Davito services was founded in 2019 by a Nigerian-born Canadian, Okechineke Daniel 
                             Enwerem. Davito services is an immigration consulting agency based in Canada. We aim 
@@ -48,26 +48,26 @@ export default function Home() {
                             to make the process easier, faster and to help maximize your chances of obtaining a Visa. 
                             </p>
                         </div>
-                        <div className='about-flex-div-two'>
+                        <div className='about-flex-div-two slide-in from-right fade-in'>
                             <img src={Man} alt="Okechineke Enwerem" className='display-pic'/>
                         </div>
                     </div>
-                    <h3>Why Davito services?</h3>
-                    <p className='kora-paragraphs'>At  Davito services, we put our clients' needs above everything else. Our goal is to ensure that their 
+                    <h3 className='fade-in'>Why Davito services?</h3>
+                    <p className='kora-paragraphs slide-in from-left fade-in'>At  Davito services, we put our clients' needs above everything else. Our goal is to ensure that their 
                         needs are met during and after the immigration process. Since our founding, Davito Services has been 
                         bringing immigrants into the country who are creating better lives for themselves. Our core values are 
                         trust, honesty, transparency and loyalty. Unlike most immigration companies, the majority of my team 
                         comprises of immigrants, we understand and can relate to the difficulties of moving to a foreign country. 
                     </p>
-                    <h3>About Our CEO</h3>
-                    <p className='kora-paragraphs'>As an immigrant himself, Okechineke Daniel Enwerem is determined to help immigrants obtain Canadian residency 
+                    <h3 className='fade-in'>About Our CEO</h3>
+                    <p className='kora-paragraphs slide-in from-left fade-in'>As an immigrant himself, Okechineke Daniel Enwerem is determined to help immigrants obtain Canadian residency 
                         for temporary or permanent reasons. He understands the immigration process and is willing to do the work. 
                         In his quest to become a bridge between your country and Canada, Okechineke Daniel Enwerem has made a name 
                         for himself and his company.
                     </p>
                 </section>
 
-                <section className='mission-section'>
+                <section className='mission-section fade-in'>
                     <div className='mission-flex '>
                         <div className='mission-div'>
                             <img src={MissionHand} alt="hands"/>
@@ -83,39 +83,39 @@ export default function Home() {
                 </section>
 
                 <section className='vision-values'>
-                    <h3>Our Vision</h3>
+                    <h3 className='fade-in'>Our Vision</h3>
                     <div className="vision-pic-div">
                         <img src={vision} alt="davito vision"/>
                     </div>
 
-                    <h3>Our Values </h3>
+                    <h3 className='fade-in'>Our Values </h3>
                     <div className='about-flex vission-glass-list-flex-div'>
-                        <div>
+                        <div className='slide-in from-left'>
                             <img src={values} alt="magnifying glass"/>
                         </div>
                         <div className='vision-values-list-div'>
                             <ul>
-                                <li>
+                                <li className='slide-in from-right'>
                                     <span className='list-capital'>D: </span>
                                     <span className='list-small'>Diligence</span>
                                 </li>
-                                <li>
+                                <li className='slide-in from-right'>
                                     <span className='list-capital'>A: </span>
                                     <span className='list-small'>Accountability</span>
                                 </li>
-                                <li>
+                                <li className='slide-in from-right'>
                                     <span className='list-capital'>V: </span>
                                     <span className='list-small'>Vigilance</span>
                                 </li>
-                                <li>
+                                <li className='slide-in from-right'>
                                     <span className='list-capital letter-I'>I: </span>
                                     <span className='list-small'>Inetgrity</span>
                                 </li>
-                                <li>
+                                <li className='slide-in from-right'>
                                     <span className='list-capital'>T: </span>
                                     <span className='list-small'>Trustworthy</span>
                                 </li>
-                                <li>
+                                <li className='slide-in from-right'>
                                     <span className='list-capital'>O: </span>
                                     <span className='list-small'>Openness</span>
                                 </li>

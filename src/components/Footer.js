@@ -9,10 +9,10 @@ export default function Footer() {
   return (
         <footer>
             <div className='about-flex footer-first-div'>
-                <div>
+                <div className='slide-in from-left'>
                     <img src={rcic}/>
                 </div>
-                <div>
+                <div className='slide-in from-right'>
                     We are licensed and you are protected. Our CEO Daniel 
                     Enwerem is a licensed member of the Immigration Consultants 
                     of Canada Regulatory Council, membership number R706074. We 

@@ -20,7 +20,6 @@
 
 .book-consultation-div{
     position: absolute;
-    left:33%;
     top:15%;
     font-size: .7em;
     background-color: #890000;
@@ -34,6 +33,12 @@
     transition: ease-in-out .3s;
     border-radius: 3px;
     font-family: 'PT Serif', serif;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 10em;
 }
 
 .book-consultation-div:hover{
@@ -221,7 +226,6 @@
       height:300px;
     }
     .book-consultation-div{
-      left:30em;
       top:20em;
     }
     .display-pic{
@@ -236,12 +240,11 @@
 
   }
 
-  @media(min-width :1085px){
+  @media(min-width :1024px){
     .slideImg{ 
       height:400px;
     }
     .book-consultation-div{
-      left:34.3em;
       top:22em;
       padding-left: 20px;
       padding-right: 20px;
@@ -270,7 +273,7 @@
     }
     .mission-section{
       padding-top: unset;
-      height: 332px;
+      height: 450px;
     }
     .mission-div >img {
       height: unset;

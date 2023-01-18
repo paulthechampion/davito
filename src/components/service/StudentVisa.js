@@ -4,13 +4,13 @@ import Studygroup from "../../img/study-group.png"
 export default function StudentVsa() {
   return (
             <div className='begin-margin'>
-                <h3 className='student-visa-h3 top-margin'>
+                <h3 className='student-visa-h3 top-margin fade-in'>
                     Thinking Of Studying In Canada?  We Can Help
                 </h3>
                 
 
                 <div className='about-flex our-service-div'>
-                    <div className='student-p-div'>
+                    <div className='student-p-div slide-in from-left fade-in'>
                         <h4>
                         Canada is the third most popular country for international students.
                         </h4>
@@ -28,7 +28,7 @@ export default function StudentVsa() {
                             We are committed to ensuring that your study experience in Canada is exceptional.
                         </p>
                     </div>
-                    <div>
+                    <div className='slide-in from-right fade-in'>
                         <img src={Studygroup} alt="Study group"  className='study-group'/>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export default function StudentVsa() {
                     <span>Working with a studuent visa</span>
                 </div>
                 <div className='second-group'>
-                    <p>
+                    <p className='fade-in'>
                     As of June 1st, 2014, specific international students with study permits are permitted to work 
                     on campus without a work permit during the academic period. They can only work for 20hrs a week 
                     and full time during their academic breaks. <br/>
@@ -45,29 +45,29 @@ export default function StudentVsa() {
                     </p>
 
                     <ul className='second-group-ul '>
-                        <li>
+                        <li className='slide-in from-left fade-in'>
                             Possess valid study permission.
 
 
 
                         </li>
-                        <li>
+                        <li className='slide-in from-right fade-in'>
                         Attend a Designed Learning Institution full-time (DLI)
                         </li>
-                        <li>
+                        <li className='slide-in from-left fade-in'>
                         They must be enrolled in a post-secondary academic, vocational, or professional training programme, or a secondary vocational training programme, both of which are available in Quebec.
                         </li>
 
-                        <li>
+                        <li className='slide-in from-right fade-in'>
                         Their study program must last at least six months and culminates in a degree, diploma, or certificate.
                         </li>
                     </ul>
                     
-                        NOTE: The Post-Graduation Job Permit Program (PGWPP) has different eligibility conditions than off-campus work eligibility.
+                       <p className='fade-in'> NOTE: The Post-Graduation Job Permit Program (PGWPP) has different eligibility conditions than off-campus work eligibility.
                         Students who do not match this criterion may be eligible for a work permit.
-                    <br/>
+                        </p>
 
-                    <button className='contact-btn'>
+                    <button className='contact-btn fade-in'>
                         Contact Us
                     </button>
                 </div>

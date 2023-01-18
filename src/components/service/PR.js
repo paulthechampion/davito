@@ -8,7 +8,7 @@ export default function PR() {
       })
   return (
     <div className='begin-margin'>
-        <h3 className='student-visa-h3 top-margin'>
+        <h3 className='student-visa-h3 top-margin fade-in'>
             Thinking Of Becoming a PR ?  We Can Help
         </h3>
         
@@ -16,12 +16,12 @@ export default function PR() {
         <div className='pr-div our-service-div'>
             {
                 isDesktopOrLaptop?
-                    <div>
+                    <div className='slide-in from-left'>
                         <img src={Work} alt="Study group"  className='work-pic'/>
                     </div>
                 :null
             }
-            <div className='student-p-div'>
+            <div className='student-p-div slide-in from-right'>
                 <h4 className='work-h4'>
                     who is eligble
                 </h4>
@@ -35,21 +35,21 @@ export default function PR() {
             </div>
             {
                 isDesktopOrLaptop?null :
-                    <div>
+                    <div className='slide-in from-left'>
                         <img src={Work} alt="Study group"  className='work-pic'/>
                     </div>
             }
-            <div className='joining-p'>
+            <div className='joining-p fade-in'>
                 <p>
                     To maintain your PR status, you must stay in Canada for a total of 3 years (730 days) within 
                     five years. To be considered, you must meet the following requirement: 
                 </p>
                 <ul className='second-group-ul pr-list '>
-                    <li>
+                    <li className='slide-in from-left'>
                         Have at least 12 months of full-time skilled job experience in Canada in the three years leading up to your application
                     </li>
 
-                    <li>
+                    <li className='slide-in from-right'>
                         Be able to communicate in English or French.
                     </li>
                 </ul>
@@ -67,19 +67,19 @@ export default function PR() {
 
 
             <ul className='second-group-ul '>
-                <li>
+                <li className='slide-in from-left'>
                     High-level jobs
                 </li>
-                <li>
+                <li className='slide-in from-right'>
                     Dual citizenship
                 </li>
-                <li>
+                <li className='slide-in from-left'>
                     Canadian politics
                 </li>
 
             </ul>
 
-            <button className='contact-btn'>
+            <button className='contact-btn fade-in'>
                 Contact Us
             </button>
 

@@ -23,7 +23,7 @@ export default class MyForm extends React.Component {
        
         <input type="text" required className="inputCont" name="name" placeholder="Name"/><br/>
         
-        <input type="tel" required className="inputCont" name="number" placeholder="Phone Number"  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/><br/>
+        <input type="tel" required className="inputCont" name="number" placeholder="Phone Number"/><br/>
 
 
         <input type="email" required className="inputCont" name="email" placeholder="Email Address"/><br/>

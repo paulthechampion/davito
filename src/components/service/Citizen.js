@@ -4,13 +4,13 @@ import Studygroup from "../../img/flaggirl.png"
 export default function Citizen() {
   return (
             <div className="begin-margin">
-                <h3 className='student-visa-h3 top-margin'>
+                <h3 className='student-visa-h3 top-margin fade-in'>
                     Thinking Of Becoming A Canadian Citizen?  We Can Help
                 </h3>
                 
 
                 <div className='about-flex our-service-div'>
-                    <div className='student-p-div'>
+                    <div className='student-p-div slide-in from-left'>
                         <h4>
                             Become a Canadian citizen
                         </h4>
@@ -21,8 +21,8 @@ export default function Citizen() {
                             85% of eligible permanent residents become citizens
                         </p>
                     </div>
-                    <div>
-                        <img src={Studygroup} alt="Study group"  className='study-group'/>
+                    <div className='slide-in from-right'>
+                        <img src={Studygroup} alt="Study group"  className='study-group smilingbabe'/>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@ export default function Citizen() {
                     <span>requriments needed to become a canadian citizen</span>
                 </div>
                 <div className='second-group'>
-                    <p>
+                    <p className='fade-in'>
                         Before applying for citizenship you must meet the IRCC requirement
                     </p>
 
@@ -38,27 +38,27 @@ export default function Citizen() {
 
 
                     <ul className='second-group-ul '>
-                        <li>
+                        <li className='slide-in from-left'>
                             must be a permanent resident
                         </li>
                         <li>
                             must have lived in canada for 3 years within a five years period
                         </li>
-                        <li>        
+                        <li className='slide-in from-right'>        
                             have filed taxes
                         </li>
 
-                        <li>
+                        <li className='slide-in from-left'>
                             pass the citizen test
                         </li>
 
-                        <li>
+                        <li className='slide-in from-right'>
                             speak english or french 
                         </li>
                     </ul>
                     <br/>
 
-                    <button className='contact-btn'>
+                    <button className='contact-btn fade-in'>
                         Contact Us
                     </button>
                 </div>

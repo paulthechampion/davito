@@ -19,6 +19,7 @@
 @import "./shared/phone-menu.css";
 @import "./shared/home.css";
 @import "./shared/service.css";
+@import "./shared/intersection.css";
 
 @import "./shared/contact.css";
 @import "./shared/footer.css";
@@ -29,11 +30,15 @@
   margin-top: 14.2%;
 }
 
+.smilingbabe{
+  padding-left: 0 !important;
+}
+
 .top-margin {
   margin-top: 3em;
 }
 
-@media(min-width :800px){
+@media(min-width :410px){
   .begin-margin{ 
     margin-top: 6%; 
   }
@@ -46,4 +51,15 @@
   .top-margin {
     margin-top: 5em;
   }
+}
+
+@media(min-width :1338px){
+  .begin-margin{ 
+    margin-top: 7%; 
+  }
+
+  .slideImg {
+    height: 500px;
+  }
+
 }
