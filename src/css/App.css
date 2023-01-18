@@ -7,7 +7,19 @@
   font-family: himalaya;
   src: url(../img/himalaya.ttf);
 }
+html {
+  overflow-y: initial !important;
+}
 
+body{
+ 
+ overflow-x: hidden;
+}
+
+#root {
+  position: relative;
+  overflow-x: hidden;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&family=PT+Sans+Caption:wght@100&family=PT+Serif&family=Sora:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
