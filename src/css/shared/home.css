@@ -77,7 +77,7 @@
 }
 .about-flex-div-two{
   padding-left: 1em; 
-  text-align: center;
+  text-align: center !important;
 }
 
 .display-pic{
